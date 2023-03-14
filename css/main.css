@@ -1,3 +1,25 @@
-.test {
-  font: inherit;
+.page {
+  padding: 0;
+  margin: 0;
+}
+.page__section {
+  background-color: lightgrey;
+}
+.page__container {
+  max-width: 468px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+
+.scroller {
+  padding: 0;
+  margin: 0;
+}
+.scroller__element {
+  height: 240px;
+  width: 360px;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  background-color: #fff;
 }/*# sourceMappingURL=main.css.map */
