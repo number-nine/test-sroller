@@ -8,32 +8,29 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
   </head>
   <body class="page">
     <section class="page__section">
-      <div class="page__container swiper">
+      <div class="page__container">
+        <div class="swiper">
         <ul class="scroller swiper-wrapper">
-          <il class="scroller__element swiper-slide"> </il>
-          <il class="scroller__element swiper-slide"> </il>
-          <il class="scroller__element swiper-slide"> </il>
-          <il class="scroller__element swiper-slide"> </il>
-          <il class="scroller__element swiper-slide"> </il>
+          <il class="scroller__element swiper-slide"> 1</il>
+          <il class="scroller__element swiper-slide"> 2</il>
+          <il class="scroller__element swiper-slide"> 3</il>
+          <il class="scroller__element swiper-slide"> 4</il>
+          <il class="scroller__element swiper-slide"> 5</il>
         </ul>
         <div class="swiper-pagination"></div>
       </div>
+      </div>
     </section>
-    <script type="module">
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js'
-
-        const swiper = new Swiper('.swiper', {
-        
-            pagination: {
-            el: '.swiper-pagination',
-        },
-
-        });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
   </body>
 </html>
