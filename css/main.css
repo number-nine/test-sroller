@@ -42,4 +42,9 @@
   height: 13px;
   background: #fd9222;
   border-radius: 7px;
+}
+
+.swiper-pagination {
+  position: unset;
+  margin-top: 31px;
 }/*# sourceMappingURL=main.css.map */
