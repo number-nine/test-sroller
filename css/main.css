@@ -43,6 +43,20 @@
   border-radius: 15px;
   background-color: #fff;
 }
+.scroller__element--small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 180px;
+  color: rgba(17, 17, 17, 0.5);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  border-radius: 15px;
+  background-color: #fff;
+}
 
 @media screen and (max-width: 1199px) {
   .scroller__element {
@@ -54,20 +68,34 @@
     width: 335px;
   }
 }
-.swiper-pagination-bullet {
+.swiper-pagination1 {
+  position: unset;
+  margin-top: 31px;
+}
+.swiper-pagination1 .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
   background: rgba(17, 17, 17, 0.5);
 }
-
-.swiper-pagination-bullet-active {
+.swiper-pagination1 .swiper-pagination-bullet-active {
   width: 28px;
   height: 13px;
   background: #fd9222;
   border-radius: 7px;
 }
 
-.swiper-pagination {
+.swiper-pagination2 {
   position: unset;
-  margin-top: 31px;
+  margin-top: 100px;
+}
+.swiper-pagination2 .swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  background: blue;
+}
+.swiper-pagination2 .swiper-pagination-bullet-active {
+  width: 40px;
+  height: 30px;
+  background: tomato;
+  border-radius: 15px;
 }/*# sourceMappingURL=main.css.map */
