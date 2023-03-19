@@ -24,3 +24,19 @@
 
     }
 }
+
+@media screen and (max-width: 1199px ){
+    .scroller {
+        &__element {
+            width: 334px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px ){
+    .scroller {
+        &__element {
+            width: 335px;
+        }
+    }
+}

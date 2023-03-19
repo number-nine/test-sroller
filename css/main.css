@@ -10,8 +10,21 @@
   margin-right: auto;
   padding-left: 32px;
   padding-right: 32px;
+  outline: 1px dashed darkgray;
 }
 
+@media screen and (max-width: 1199px) {
+  .page__container {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page__container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .scroller {
   padding: 0;
   margin: 0;
@@ -31,6 +44,16 @@
   background-color: #fff;
 }
 
+@media screen and (max-width: 1199px) {
+  .scroller__element {
+    width: 334px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .scroller__element {
+    width: 335px;
+  }
+}
 .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
