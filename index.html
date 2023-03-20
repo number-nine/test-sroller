@@ -16,38 +16,53 @@
     <title>Document</title>
   </head>
   <body class="page">
-
-
     <section class="page__section">
       <div class="page__container">
         <div class="swiper swiper1">
-        <ul class="scroller swiper-wrapper">
-          <il class="scroller__element swiper-slide"> 1</il>
-          <il class="scroller__element swiper-slide"> 2</il>
-          <il class="scroller__element swiper-slide"> 3</il>
-          <il class="scroller__element swiper-slide"> 4</il>
-          <il class="scroller__element swiper-slide"> 5</il>
-        </ul>
-        <div class="swiper-pagination swiper-pagination1"></div>
+          <ul class="scroller swiper-wrapper">
+            <il class="scroller__element swiper-slide"> 1</il>
+            <il class="scroller__element swiper-slide"> 2</il>
+            <il class="scroller__element swiper-slide"> 3</il>
+            <il class="scroller__element swiper-slide"> 4</il>
+            <il class="scroller__element swiper-slide"> 5</il>
+          </ul>
+          <div class="swiper-pagination swiper-pagination1"></div>
+        </div>
       </div>
+
+      <div class="page__container">
+        <div class="swiper swiper2">
+          <ul class="scroller swiper-wrapper">
+            <il class="scroller__element--small swiper-slide"> 1</il>
+            <il class="scroller__element--small swiper-slide"> 2</il>
+            <il class="scroller__element--small swiper-slide"> 3</il>
+            <il class="scroller__element--small swiper-slide"> 4</il>
+            <il class="scroller__element--small swiper-slide"> 5</il>
+          </ul>
+          <div class="swiper-pagination swiper-pagination2"></div>
+        </div>
       </div>
     </section>
 
+    <!-- https://www.w3schools.com/howto/howto_css_flip_card.asp -->
 
-    <div class="page__container">
-      <div class="swiper swiper2">
-      <ul class="scroller swiper-wrapper">
-        <il class="scroller__element--small swiper-slide"> 1</il>
-        <il class="scroller__element--small swiper-slide"> 2</il>
-        <il class="scroller__element--small swiper-slide"> 3</il>
-        <il class="scroller__element--small swiper-slide"> 4</il>
-        <il class="scroller__element--small swiper-slide"> 5</il>
+    <div class="page__conainer">
+      <h2>hidden</h2>
+      <ul class="active-cards">
+        <li class="active-cards__item">
+          
+          <div class="active-cards__thumb">
+            <div class="active-cards__picture"></div>
+            <h3 class="active-cards__title">Milk</h3>
+          </div>
+
+          <div class="active-cards__description">
+
+          </div>
+
+        </li>
       </ul>
-      <div class="swiper-pagination swiper-pagination2"></div>
     </div>
-    </div>
-  </section>
-
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
